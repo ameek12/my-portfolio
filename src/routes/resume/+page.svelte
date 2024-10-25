@@ -1,0 +1,43 @@
+<svelte:head>
+  <title>Resume</title>
+</svelte:head>
+
+
+<!-- Education Section -->
+<section class="education">
+    <h1>Education</h1>
+    <h3>University of California, San Diego </h3>
+    <p>M.S. in Data Science 2023-2025</p>
+    <p>B.S. in NanoEngineering with a Focus in Materials Science 2011-2016</p>
+</section>
+
+<!-- Experience Section -->
+<section class="experience">
+      <section>
+        <h1>A few companies</h1>
+        <p>Worked in both the digital health and the entertainment tech industry</p>
+      </section>
+      <section>
+        <article>
+            <h3><a href="https://z2comics.com">
+            <p>Worked at Z2 <time datetime="2023-04-01">2023 until present</time></p>
+            <img src="../images/z2.png" alt="Z2" height=100 width=200>
+            </a>
+        </article>
+      </section>
+      <section>
+        <article>
+            <h3><a href="https://evidation.com">
+            <p>Worked at Evidation <time datetime="2021-01-01">2021 until 2023</time></p>
+            <img src="../images/evidation.png" alt="evidation" height=100 width=200>
+            </a>
+        </article>
+        </section>
+        <section>
+            <article>
+                <h1>Publications</h1>
+                <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/adma.201701312"><h2>Scalable Manufacturing of Solderable and Stretchable Physiologic Sensing Systems</h2> </a>
+            </article>
+        </section>
+</section>
+
